@@ -318,9 +318,13 @@
         padding:15px;
         border-top:1px solid #dfdede;
     }
-    footer .copyright {float:left; margin-top:21px; font-size:12px; font-weight: 400; color:#495057}
+    footer .copyright {float:left; margin-top:17px; font-size:12px; font-weight: 400; color:#495057}
     footer ul {list-style: none; float:right; margin-top:13px}
     footer ul li {display: inline; padding-right: 5px;}
     footer ul li a {text-decoration: none; color:#000; font-weight: 400; font-size:14px}
     footer ul li a:hover { text-decoration: none; color:rgb(270,87,71)!important;}
     footer ul li:last-child a {text-decoration: none; color:#fa6636; font-weight: 700; font-size:14px}
+    @media (max-width: 768px){
+        footer .copyright {float:none; text-align: center; margin-top:10px;}
+        footer ul {float:none; text-align: center; margin-top:0px}
+    }
