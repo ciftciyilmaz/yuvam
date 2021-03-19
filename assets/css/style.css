@@ -158,10 +158,13 @@ Author URL: www.yilmazciftci.net
     color: #000;
     text-align: center;
 }
+    .diyalog h1 span { color:#6618b6 }
+    .diyalog h1 span+span { color:#fa6636}
     .cizgi {border-top:1px solid #dfdede;}
 
     .eskichat-text { font-size:13px }
     .eskichat p.h1 {font-size:24px; text-align: center;}
+    .eskichat p.h1 img { width:24px; }
     .eskichat .orange { color:#fa6636;}
     @media (max-width: 992px){
     .masaustu {
