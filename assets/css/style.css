@@ -151,7 +151,7 @@ Author URL: www.yilmazciftci.net
           z-index:2
       }
    }
-   .empty {margin-top:100px}
+   .empty {margin-top:93px}
    .diyalog {margin-top:20px; margin-bottom:20px}
    .diyalog h1 {
     font: 25px/30px Comfortaa,cursive;
@@ -162,6 +162,7 @@ Author URL: www.yilmazciftci.net
 
     .eskichat-text { font-size:13px }
     .eskichat p.h1 {font-size:24px; text-align: center;}
+    .eskichat .orange { color:#fa6636;}
     @media (max-width: 992px){
     .masaustu {
         display: none;
@@ -325,8 +326,8 @@ Author URL: www.yilmazciftci.net
         padding:15px;
         border-top:1px solid #dfdede;
     }
-    footer .copyright {float:left; margin-top:17px; font-size:12px; font-weight: 400; color:#495057}
-    footer ul {list-style: none; float:right; margin-top:13px}
+    footer .copyright {float:left; margin-top:24px; font-size:12px; font-weight: 400; color:#495057}
+    footer ul {list-style: none; float:right; margin-top:20px}
     footer ul li {display: inline; padding-right: 5px;}
     footer ul li a {text-decoration: none; color:#000; font-weight: 400; font-size:14px}
     footer ul li a:hover { text-decoration: none; color:rgb(270,87,71)!important;}
