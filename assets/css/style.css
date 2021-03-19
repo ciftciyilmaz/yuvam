@@ -335,3 +335,36 @@ Author URL: www.yilmazciftci.net
         footer .copyright {float:none; text-align: center; margin-top:10px;}
         footer ul {float:none; text-align: center; margin-top:0px}
     }
+
+    /* Hakkimizda Sayfası */
+
+    .hk { 
+        background:#ffffff;
+        box-shadow: 0 1px 3px rgb(0 0 0 / 50%);
+        border-radius: 5px;
+        margin-bottom:100px;
+        margin-top:150px;
+        padding:30px;
+    }
+    .hk h1 {font-size:26px; color:#6618b6; border-bottom:1px solid #3c0d6b; padding-bottom:10px; margin-bottom:20px}
+    .hk h1 .network {font-size:15px; color:#000; font-style: italic;}
+    .hk p {text-align:justify; font-size:15px;}
+    blockquote {
+        background: #f9f9f9;
+        border-left: 10px solid #6618b6;
+        margin: 1.5em 10px;
+        padding: 1.5em 10px;
+        border-radius: 5px;
+        quotes: "\201C""\201D""\2018""\2019";
+      }
+      blockquote:before {
+        color: #ccc;
+        content: open-quote;
+        font-size: 4em;
+        line-height: 0.1em;
+        margin-right: 0.25em;
+        vertical-align: -0.4em;
+      }
+      blockquote p {
+        display: inline;
+      }
