@@ -75,6 +75,21 @@ Author URL: www.yilmazciftci.net
   [contenteditable].form-control:focus {
     box-shadow: inset 0 -1px 0 #fff;
   }
+  /* scrollbar */
+
+  body::-webkit-scrollbar {
+    width: 10px;
+    }
+ 
+  body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    }
+ 
+  body::-webkit-scrollbar-thumb {
+    background-color: #6618b6;
+    outline: 1px solid slategrey;
+    }
+/* scrollbar end */
   body {
     font-family: 'Comfortaa';
     background: url(../images/bg3.png) no-repeat;
